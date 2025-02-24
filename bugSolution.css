@@ -1,0 +1,15 @@
+/* bugSolution.css */
+.container {
+  width: 100%;
+  border: 1px solid black; 
+}
+
+.element {
+  /* Correct usage of calc() with explicit order */
+  width: calc((100% - 10px) + 5%); /* Parentheses ensure correct order */
+  background-color: lightblue;
+  /*Consistent unit usage */
+  height: calc(200px + 10px);/* Uses px units consistently */
+}
+
+/*To fix unit inconsistencies you may have to use a javascript function or convert values*/
